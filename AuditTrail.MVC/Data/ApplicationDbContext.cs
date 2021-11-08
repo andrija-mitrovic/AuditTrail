@@ -12,5 +12,6 @@ namespace AuditTrail.MVC.Data
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Audit> AuditLogs { get; set; }
     }
 }
